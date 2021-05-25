@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sign In | Dribbble</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="sidebar-title">
+          <a href="#"
+            ><img class="logo-img" src="./assets/dribbble-logo.svg"
+          /></a>
+          <p>
+            Discover the world’s top<br />
+            Designers & Creatives.
+          </p>
+        </div>
+        <div class="artwork"></div>
+        <div class="artwork-owner">
+          <p>Art by <a href="#">Irina Valeeva</a></p>
+        </div>
+      </div>
+      <div class="right">
+        <div class="nav">
+          <p class="sign-up-link sign-up-link-top">
+            Not a member? <a href="#">Sign up now</a>
+          </p>
+        </div>
+        <div class="main-form-container">
+          <div class="form-container">
+            <a href="#"
+              ><img
+                class="logo-img logo-img-small-view"
+                src="./assets/dribbble-logo - black.svg"
+            /></a>
+
+            <p id="sign-in-to-dribbble">Sign in to Dribbble</p>
+            <div class="redirect-logins-container">
+              <button id="google-login-btn">
+                <div id="google-img">
+                  <img src="./assets/Google__G__Logo.svg.png" />
+                </div>
+                <p id="sign-in-with-google">Sign in with Google</p>
+              </button>
+              <button id="twitter-login-btn">
+                <div><i class="fab fa-twitter"></i></div>
+              </button>
+            </div>
+            <div id="form-middle-devider">
+              <div id="rule"></div>
+              <p>Or</p>
+              <div id="rule"></div>
+            </div>
+            <form class="login-form">
+              <div class="input-unit">
+                <lable>Username or Email Address</lable>
+                <input type="text" />
+              </div>
+              <div class="input-unit">
+                <div id="align-vertical-s">
+                  <lable>Password</lable>
+                  <a href="#">Forgot password?</a>
+                </div>
+                <input type="password" />
+              </div>
+              <input id="sign-in-btn" type="submit" value="Sign In" />
+              <p class="sign-up-link sign-up-link-bottom">
+                Not a member? <a href="#">Sign up now</a>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
